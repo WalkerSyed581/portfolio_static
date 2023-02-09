@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Rubik+Mono+One&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --size: 15rem;
+  --half-size: 7.5rem;
+  --inner-size-width: 13rem;
+  --inner-size-height: 13rem;
+
+  --size-md: 12rem;
+  --half-size-md: 6rem;
+  --inner-size-width-md: 10rem;
+  --inner-size-height-md: 10rem;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+}
+h1 {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 3rem;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  z-index: 200;
+}
+@media (min-width: 768px) {
+  .circle-wrap {
+    margin: 1rem auto;
+    width: var(--size);
+    height: var(--size);
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+  }
+
+  .circle-wrap .circle .mask,
+  .circle-wrap .circle .fill {
+    width: var(--size);
+    height: var(--size);
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .mask .fill {
+    clip: rect(0px, var(--half-size), var(--size), 0px);
+    background-color: #227ded;
+  }
+
+  .circle-wrap .circle .mask {
+    clip: rect(0px, var(--size), var(--size), var(--half-size));
+  }
+
+  .circle-wrap .inside-circle {
+    width: var(--inner-size-width);
+    height: var(--inner-size-height);
+    border-radius: 50%;
+    background: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #1e51dc;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
+}
+/* .mask.full,
+.circle .fill {
+  animation: fill ease-in-out 3s;
+} */
+
+.fill-100 {
+  transform: rotate(180deg);
+  animation: fill-100 ease-in-out 3s;
+}
+
+.fill-95 {
+  transform: rotate(171deg);
+  animation: fill-95 ease-in-out 3s;
+}
+
+.fill-90 {
+  transform: rotate(162deg);
+  animation: fill-90 ease-in-out 3s;
+}
+
+.fill-85 {
+  transform: rotate(153deg);
+  animation: fill-85 ease-in-out 3s;
+}
+
+.fill-80 {
+  transform: rotate(144deg);
+  animation: fill-80 ease-in-out 3s;
+}
+
+.fill-75 {
+  transform: rotate(135deg);
+  animation: fill-75 ease-in-out 3s;
+}
+
+.fill-70 {
+  transform: rotate(126deg);
+  animation: fill-70 ease-in-out 3s;
+}
+
+.fill-65 {
+  transform: rotate(117deg);
+  animation: fill-65 ease-in-out 3s;
+}
+
+.fill-60 {
+  transform: rotate(108deg);
+  animation: fill-60 ease-in-out 3s;
+}
+
+@keyframes fill-100 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes fill-95 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(171deg);
+  }
+}
+
+@keyframes fill-90 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(162deg);
+  }
+}
+
+@keyframes fill-85 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(153deg);
+  }
+}
+
+@keyframes fill-80 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(144deg);
+  }
+}
+
+@keyframes fill-75 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(135deg);
+  }
+}
+
+@keyframes fill-70 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(126deg);
+  }
+}
+
+@keyframes fill-65 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(117deg);
+  }
+}
+
+.ride-app-image {
+  background-image: url("/public/projects/ride_app.png");
+}
+
+.filesystem-image {
+  background-image: url("/public/projects/filesystem_image.png");
+}
+
+.fyp-image {
+  background-image: url("/public/projects/fyp_image.png");
+}
+.hms-image {
+  background-image: url("/public/projects/hms_image.jpg");
+}
+.search-image {
+  background-image: url("/public/projects/search_image.jpg");
+}
+
+.mern-store-image {
+  background-image: url("/public/projects/proshop.png");
+}
+
+.project {
+  height: 50vh;
+}
+
+@media (min-width: 640px) {
+  .circle-wrap {
+    margin: 1rem auto;
+    width: var(--size-md);
+    height: var(--size-md);
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+  }
+
+  .circle-wrap .circle .mask,
+  .circle-wrap .circle .fill {
+    width: var(--size-md);
+    height: var(--size-md);
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .mask .fill {
+    clip: rect(0px, var(--half-size-md), var(--size-md), 0px);
+    background-color: #227ded;
+  }
+
+  .circle-wrap .circle .mask {
+    clip: rect(0px, var(--size-md), var(--size-md), var(--half-size-md));
+  }
+
+  .circle-wrap .inside-circle {
+    width: var(--inner-size-width-md);
+    height: var(--inner-size-height-md);
+    border-radius: 50%;
+    background: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #1e51dc;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
+}
+
+.tag:after {
+  content: " / ";
+}
+
+.tag:last-child:after {
+  content: "";
+}
+
+#footer a,
+#footer a:visited {
+  color: black;
+}
+
+a,
+a:visited {
+  color: #169ff5;
+}
+
+a:hover {
+  color: #f62e2e;
+}
+
+.error {
+  box-shadow: inset 0px 0px 1px 1px #f62e2e;
+}
+
+.error-area {
+  padding: 15px;
+  border: 1px solid white;
+  color: #f62e2e;
+}
+
+.success-area {
+  padding: 15px;
+  border: 1px solid lightgreen;
+  color: lightgreen;
+}
