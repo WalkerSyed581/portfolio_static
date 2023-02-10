@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio_static/static/css/main.86071295.css",
+    "main.js": "/portfolio_static/static/js/main.9a60d487.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio_static/static/js/787.1ed0c42c.chunk.js",
+    "static/media/sat.jpg": "/portfolio_static/static/media/sat.44a67ab4d3f433c2120b.jpg",
+    "static/media/cta.jpg": "/portfolio_static/static/media/cta.8f6ab7056c78922cb790.jpg",
+    "static/media/techs.jpg": "/portfolio_static/static/media/techs.979fb4990cf45d02845e.jpg",
+    "static/media/ride_app.png": "/portfolio_static/static/media/ride_app.339ce1a5ac534f335eac.png",
+    "static/media/projects.jpg": "/portfolio_static/static/media/projects.7525967bdf5bd4762257.jpg",
+    "static/media/testimonial.jpg": "/portfolio_static/static/media/testimonial.75c7d9d310bbf6938785.jpg",
+    "static/media/proshop.png": "/portfolio_static/static/media/proshop.90014d068c59a6ea3e82.png",
+    "static/media/filesystem_image.png": "/portfolio_static/static/media/filesystem_image.6a4f28998f423966450f.png",
+    "static/media/hms_image.jpg": "/portfolio_static/static/media/hms_image.e5e823fd5968c62c4cf5.jpg",
+    "static/media/fyp_image.png": "/portfolio_static/static/media/fyp_image.413e4e48bef2ef8d4573.png",
+    "static/media/search_image.jpg": "/portfolio_static/static/media/search_image.3c9dd926a681b7f4969f.jpg",
+    "index.html": "/portfolio_static/index.html",
+    "main.86071295.css.map": "/portfolio_static/static/css/main.86071295.css.map",
+    "main.9a60d487.js.map": "/portfolio_static/static/js/main.9a60d487.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio_static/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86071295.css",
+    "static/js/main.9a60d487.js"
+  ]
+}

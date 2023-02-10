@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="69.62 43.002 364.376 144.862" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <filter id="drop-shadow-filter-0" color-interpolation-filters="sRGB" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 1 5 2 0.5 rgba(252,252,252,1)">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="5"/>
+      <feComponentTransfer result="offsetblur">
+        <feFuncA id="spread-ctrl" type="linear" slope="1"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(252,252,252,1)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style bx:fonts="Syne Mono">@import url(https://fonts.googleapis.com/css2?family=Syne+Mono%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+  </defs>
+  <polygon points="260.725 101.275 277.797 80.009 260.734 58.762 256.71 61.791 271.341 80.01 256.702 98.246 260.725 101.275" class="ci-primary" style="fill: rgb(22, 159, 245); filter: url(#drop-shadow-filter-0);"/>
+  <polygon points="222.493 98.246 207.862 80.019 222.501 61.791 218.479 58.762 201.406 80.018 218.469 101.275 222.493 98.246" class="ci-primary" style="fill: rgb(22, 159, 245); filter: url(#drop-shadow-filter-0);"/>
+  <polygon points="251.471 43.002 246.221 43.002 227.249 117.035 232.5 117.035 251.471 43.002" class="ci-primary" style="fill: rgb(22, 159, 245); filter: url(#drop-shadow-filter-0);"/>
+  <text style="fill: rgb(22, 159, 245); font-family: &quot;Syne Mono&quot;; font-size: 51px; white-space: pre; filter: url(#drop-shadow-filter-0);" x="69.62" y="173.397">SAJEEL HASSAN</text>
+</svg>
