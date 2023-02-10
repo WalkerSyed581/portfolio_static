@@ -60,7 +60,11 @@ const Testimonials = () => {
             and share my work with you in an open and honest way. I take pride
             in my commitment to excellence and these reviews are a testament to
             that. I invite you to read through them and learn more about me and
-            my approach to work.
+            my approach to work. You can read more of my reviews on{" "}
+            <a href="https://www.upwork.com/freelancers/~01d5ced9257eb7da75?s=1110580755107926016">
+              Upwork
+            </a>
+            .
           </p>
         </div>
         {testimonials.map((testimonial) => (

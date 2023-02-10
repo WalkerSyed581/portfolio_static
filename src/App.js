@@ -7,7 +7,6 @@ import Projects from "./components/projects/Projects";
 import Testimonials from "./components/testimonials/Testimonials";
 import Footer from "./components/Footer";
 import "tw-elements";
-import Contact from "./components/Contact";
 
 function App() {
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -28,7 +27,7 @@ function App() {
       <Skills />
       <Projects />
       <Testimonials />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );

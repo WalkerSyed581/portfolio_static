@@ -251,6 +251,10 @@ h1 {
   background-image: url("/public/projects/proshop.png");
 }
 
+.satellite-image {
+  background-image: url("/public/projects/sat.jpg");
+}
+
 .project {
   height: 50vh;
 }

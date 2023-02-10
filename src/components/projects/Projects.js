@@ -57,6 +57,14 @@ function Projects() {
       url: "",
       tags: ["Django", "Bootstrap", "Search Engine"],
     },
+    {
+      id: 7,
+      name: "Semantic Segmentaiton of Satellite Imagery of Slums",
+      description: "",
+      logo: "satellite-image",
+      url: "",
+      tags: ["ML", "PyTorch", "QGIS"],
+    },
   ];
   return (
     <div className=" bg-project bg-cover bg-fixed" id="projects">
