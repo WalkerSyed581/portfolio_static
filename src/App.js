@@ -24,7 +24,7 @@ function App() {
     <div className="App scroll-smooth">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Sajeel Hassan | Full-Stack Developer</title>
+        <title>Sajeel Hassan | Full-Stack Developer </title>
         <link
           rel="icon"
           href={process.env.PUBLIC_URL + "/logo.svg "}
