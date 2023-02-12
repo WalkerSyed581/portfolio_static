@@ -50,7 +50,7 @@ const Header = () => {
               <div className="flex-shrink-0 flex items-center">
                 <img
                   className="block h-10 w-32"
-                  src={process.env.PUBLIC_URL + "logo.svg "}
+                  src={process.env.PUBLIC_URL + "/logo.svg "}
                   alt="Sajeel Hassan"
                 />
               </div>
